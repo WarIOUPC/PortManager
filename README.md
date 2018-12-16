@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## The Game
 
-You can use the [editor on GitHub](https://github.com/WarIOUPC/PortManager/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This game is a small god game where the player will need to properly manage a fishing port in order to collect a certain amount of money. But the boats can break, and the port workers will need to collect their salary, otherwise the player will lose. Find the balance between selling materials in order to upgrade the port and keep some for the workers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Controls
 
-### Markdown
+Use WASD to move the camera around. Each time a forklift delivers materials from a dock to the delivery point, the player will obtain them. Materials are used to pay the workers and repair boats, and can be exchanged for money. Money is used for buying more ships, workers and forklifts. During night, all the boats will return to the port. But if the player activates the lighthouse, which consumes money periodically, the boats will keep fishing during night. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The Authors
 
-```markdown
-Syntax highlighted code block
+- [Hugo Bó](https://github.com/Hugo-Bo-Diaz).
 
-# Header 1
-## Header 2
-### Header 3
+- [Lorién Portella](https://github.com/Witiza).
 
-- Bulleted
-- List
+### Behaviour Trees
 
-1. Numbered
-2. List
+The focus of this project is the implementation of an AI system using behaviour trees. The behaviour trees used for each agent are the following:
 
-**Bold** and _Italic_ and `Code` text
+- Fishing Boat:
 
-[Link](url) and ![Image](src)
-```
+![imagen](https://imgur.com/qcGjxcA.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Forklift:
 
-### Jekyll Themes
+![imagen](https://imgur.com/eY8ibdm.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WarIOUPC/PortManager/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Worker:
 
-### Support or Contact
+![imagen](https://imgur.com/Kl3gp56.png)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Other links
+
+- [Bitbucket Repository (private)](https://bitbucket.org/warioupc/portmanager/src/master/).
+- [Bitbucket Wiki (private)](https://bitbucket.org/warioupc/portmanager/wiki/Home).
